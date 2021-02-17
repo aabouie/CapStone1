@@ -6,14 +6,16 @@
     For instance, we can determine whether color can have an impact on the proposed price.
  
 
-###  2. Web scrape/compare the price of products on Amazon/Marketplace/Ebay, perform statistical analysis on price competitiveness
+###  2. Analysis of the price competivieness from Amazon/Ebay/Walmart and perform statistical analysis on price competitiveness
 
-    The analysis would help in comparing the price of products (e.g, laptops) and determine if there is significat differnce in the mean price or not based on the features.
+    The analysis would help in comparing the price of products (e.g, laptops) and determine if 
+    there is significat differnce in the mean price or not based on the features.
 
-###  3. Web scrape of the yelp review/google review of restaurants and perform statistical analysis on the review stars and rating 
+###  3. Analysis of yelp/google review of Austin restaurants and perform statistical analysis the data
 
-    The analyis can
+    The result would answer several questions such as the popularity of food (e.g, Mexican vs. seafood). In addition, the data would be helpful in comapring the scores(stars) and check for similarity/difference.
+    
 
 
-## Note: We can use diffrenet statistical analysis methods such as hypothesis testing, bayesian hypothesis testing, and maxmimm likehood estimation for the proposed topics.
+#### Note: We can use different statistical analysis methods such as hypothesis testing, bayesian hypothesis testing, and maxmimm likehood estimation for the proposed topics.
 
