@@ -4,7 +4,7 @@
 
     The analysis would help in evaluating/comparing the impact of car features on car price. 
 
-###  2. Analysis of the price competivieness from Amazon/Ebay/Walmart and perform statistical analysis on price competitiveness
+###  2. Analysis of the price competivieness from Amazon/Ebay/Walmart and perform statistical analysis on the data
 
     The analysis would help in comparing the price of products (e.g, laptops) and determine if 
     there is significat differnce in the mean price or not.
