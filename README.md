@@ -17,3 +17,5 @@ The result would answer several questions such as the popularity of food (e.g, M
 
 #### Note: We can use different statistical analysis methods such as hypothesis testing and bayesian hypothesis testing for the proposed topics.
 
+<img src='/images/Ali2.jpg> alt="Ali2" width="300/>
+
