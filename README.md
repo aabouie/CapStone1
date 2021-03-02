@@ -1,4 +1,5 @@
-# Capstone-1 Proposal
+# Capstone-1: Car Price Analysis
+
 
 ###  1. Analysis of a brand of a car (e.g. Ford) price from CarMax or any other website and perform statistical analysis on the data 
 
