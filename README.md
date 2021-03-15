@@ -1,4 +1,6 @@
 # Capstone Project 1: Car Price Analysis
+![](images/Introduction.png)
+
 In this work, we looked at the price of different cars across several states (i.e., Texas, California, and New York State).
 * fsd
 
