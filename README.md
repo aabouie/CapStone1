@@ -34,7 +34,7 @@ Features that were extracted and used in this study include:
 
 
 
-## Fun Facts (Interesting Observation)
+## Data Insights
 
 
 ![](images/Mileage_per_state.png)
