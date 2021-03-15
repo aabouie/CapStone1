@@ -16,10 +16,11 @@ As can be seen, BeautifulSoup is used to scrape the data from CARmax website. Th
 
 
 ## EDA Analysis
-
-
-
-
+After loading the data into pandas dataframe format, we performed data-preprocessing on the data and made sure that the formatting and values are reasonable. The following tasks are examples of data preprocessing job that has been done:
+* **Remove Outliers**: Price, Model, Depreciation value
+* **Handle Null Values**: Remove/replace values based on the feature importance
+* **Handle columns data type**
+* **Grouping**: Grouping columns based on car make, model, and year
 
 Features that were extracted and used in this study include:
 * Car mileage
@@ -44,7 +45,11 @@ Features that were extracted and used in this study include:
 
 ![](images/Mileage_per_state.png)
 
-
+* Average miles driven per year for each state:
+    * TX: 9,900 miles
+    * CA: 9,200 miles
+    * NY: 8,900 miles
+    * US Department of Transportation: 13,500 miles
 
 
 
@@ -59,11 +64,26 @@ The analysis would help in evaluating/comparing the impact of car features on ca
 
 
 
-    
-
-
 ![](images/Age_depreciation.png)
 ![](images/Car_Distribution.jpg)
+
+
+
+### Statistical Analysis-Q1
+**Is the average listing price of Ford Explorer in TX, CA, and NY different**
+
+![](images/Ford_Explorer_state_price.png)
+
+
+
+
+### Statistical Analysis-Q2
+**Is the average listing price different for different colors? (Black/Gray/White)**
+
+![](images/Price_color.png)
+
+![](images/P_Value_Car.png)
+
 
 
 
