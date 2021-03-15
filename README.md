@@ -5,17 +5,22 @@ In this work, we looked at the price of different cars across several states (i.
 * fsd
 
 ## Web Scraping
-In this project, we started to web scrape the CARMAX website. The file that used to scrape the website is called "Test_scraping.ipynb". The follwoing figure shows the summary of the workflow:
+In this project, we started to web scrape the CARMAX website. The file that used to scrape the website is called "Test_scraping.ipynb". It is worth mentioning that two popular car brands (Ford and Toyota) currently availble for sale on CARmax in Texas, California, and New York state between the years of 2012-2020 were the filtering criteria for data extraction.
+
+
+The follwoing figure shows the summary of the workflow:
 
 <img src="images/Workflow.jpg" width=800 height = 400>
 
-As can be seen, 
-
-
-
+As can be seen, BeautifulSoup is used to scrape the data from CARmax website. Then, the scraped data is stored in Mongo database. Afterwards, python libraries were used for data cleaning, analysis, and visualization. 
 
 
 ## EDA Analysis
+
+
+
+
+
 Features that were extracted and used in this study include:
 * Car mileage
 * Car price
@@ -48,7 +53,7 @@ Features that were extracted and used in this study include:
 
 
 ## Statistical Analysis
-###  1. Analysis of a brand of a car (e.g. Ford) price from CarMax or any other website and perform statistical analysis on the data 
+###  
 
 The analysis would help in evaluating/comparing the impact of car features on car price. 
 
@@ -62,4 +67,8 @@ The analysis would help in evaluating/comparing the impact of car features on ca
 
 
 
-
+## Future Work
+* Include more car data from CARmax into the database
+* Include data from other used car retailers
+* Web scraping the CARFAX dataset to include the # of accidents and services for each car
+* Apply machine learning algorithms to predict the price of cars on CARMAX
