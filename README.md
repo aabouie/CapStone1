@@ -51,9 +51,17 @@ Features that were extracted and used in this study include:
     * NY: 8,900 miles
     * US Department of Transportation: 13,500 miles
 
+* Average car value depreciation:
+    * CARmax assumes 15% depreciation annualy
+    * CARFAX reports 20% average depreciation annualy
+
 
 
 ![](images/Ford_Toyota.png)
+
+
+
+
 
 
 
@@ -74,7 +82,12 @@ The analysis would help in evaluating/comparing the impact of car features on ca
 
 ![](images/Ford_Explorer_state_price.png)
 
+Significance level: 0.05/3
+We used Mannwhitney U-test to determine the P-value for each scenario:
 
+    * TX-CA: P-value = 0.47  --> Failed to reject null hypothesis
+    * TX-NY: P-value = 0.015 --> Reject the null hypothesis
+    * CA-NY: P-value = 0.49  --> Failed to reject the null hypothesis
 
 
 ### Statistical Analysis-Q2
