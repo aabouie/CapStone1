@@ -5,18 +5,17 @@
 
 ![](images/Introduction.png)
 
-In this work, we looked at the price of different cars across several states (i.e., Texas, California, and New York State).
-*fesffs* 
+In this work, we looked at the price of different cars across several states (i.e., Texas, California, and New York State) to answer the above statistical questions.
 
 ## Web Scraping
-In this project, we started to web scrape the CARMAX website. The file that used to scrape the website is called "Test_scraping.ipynb". It is worth mentioning that two popular car brands (Ford and Toyota) currently availble for sale on CARmax in Texas, California, and New York state between the years of 2012-2020 were the filtering criteria for data extraction.
+In this project, we scraped the CARMAX website. The file that used to scrape the website is called "Test_scraping.ipynb". It is worth mentioning that two popular car brands (Ford and Toyota) currently availble for sale on CARmax in Texas, California, and New York state between the years of 2012-2020 were the filtering criteria for data extraction.
 
 
 The follwoing figure shows the summary of the workflow:
 
 <img src="images/Workflow.jpg" width=800 height = 400>
 
-As can be seen, BeautifulSoup is used to scrape the data from CARmax website. Then, the scraped data is stored in Mongo database. Afterwards, python libraries were used for data cleaning, analysis, and visualization. 
+As can be seen, BeautifulSoup is used to scrape the required data from CARmax website. Then, the scraped data is stored in Mongo database. Afterwards, python libraries were used for data cleaning, analysis, and visualization. 
 
 
 ## EDA Analysis
@@ -41,15 +40,15 @@ Features that were extracted and used in this study include:
 * Car msrp price
 * State
 
-
+After cleaning, removing, and merging the data, there were about 2400 cars with 13 features were used for further analysis.
 
 
 ## Data Insights
+The following figure shows the correlation heap map for some of the important features of the dataset. As can be seen, car mileage has negative impact on car price.
 
 ![](images/Heatmap.png)
 
-
-
+We also looked into the car mileage across these three different states as shown below. The dots show the mean mileage value for each year and colored area is related to the price with one standatd deviation from the mean value.
 
 ![](images/Mileage_per_state.png)
 
@@ -58,6 +57,9 @@ Features that were extracted and used in this study include:
     * CA: 9,200 miles
     * NY: 8,900 miles
     * US Department of Transportation: 13,500 miles
+
+As can be seen, the cars for sale on CARMAX have lower mileage compared to the reported mileage by US Department of Transportation. In addition, the cars in TX have higher mileage than California and New York state. This observation can be related to the size of each state and public transportation.
+
 
 * Average car value depreciation:
     * CARmax assumes 15% depreciation annualy
