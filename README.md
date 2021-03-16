@@ -90,7 +90,7 @@ Finally, we summarized the popularity of car models in each state. As can be see
 In this part, we investigated the impact of location and color on car price using hypothesis testing and determining the p-value.  
 
 ### Statistical Analysis-Q1
-**Is the average listing price of Ford Explorer in TX, CA, and NY different**
+**Is the average listing price of Ford Explorer in TX, CA, and NY similar**
 
 The null hypothesis for this test states that the average Ford Explorer price in Texas are equally likely to be higher than the NY (or CA) Ford Explorer price and the other way around. In other words,
 *P(Average car price in TX < Average car price in CA/NY)=0.5*
@@ -110,7 +110,7 @@ Hence, we failed to reject null hypothesis for TX-CA and CA-NY tests. However, w
 
 
 ### Statistical Analysis-Q2
-**Is the average listing price different for different colors? (Black/Gray/White)**
+**Is the average listing price the same for different colors? (Black/Gray/White)**
 
 ![](images/Price_color.png)
 
