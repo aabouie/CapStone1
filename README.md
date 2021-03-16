@@ -1,8 +1,12 @@
 # Capstone Project 1: Car Price Analysis
+*Does the cars from different states listed on CARmax have the same MSRP price on CARmax website?*
+
+*Does the cars with different colors listed on CARmax have the same MSRP price on CARmax wbsite?*
+
 ![](images/Introduction.png)
 
 In this work, we looked at the price of different cars across several states (i.e., Texas, California, and New York State).
-* fsd
+*fesffs* 
 
 ## Web Scraping
 In this project, we started to web scrape the CARMAX website. The file that used to scrape the website is called "Test_scraping.ipynb". It is worth mentioning that two popular car brands (Ford and Toyota) currently availble for sale on CARmax in Texas, California, and New York state between the years of 2012-2020 were the filtering criteria for data extraction.
