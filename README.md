@@ -91,6 +91,7 @@ In this part, we investigated the impact of location and color on car price usin
 
 ### Statistical Analysis-Q1
 **Is the average listing price of Ford Explorer in TX, CA, and NY different**
+
 The null hypothesis for this test states that the average Ford Explorer price in Texas are equally likely to be higher than the NY (or CA) Ford Explorer price and the other way around. In other words,
 *P(Average car price in TX < Average car price in CA/NY)=0.5*
 
@@ -105,7 +106,7 @@ Since we did not make any distribution assumption for the car price and the numb
     * TX-NY: P-value = 0.015 --> Reject the null hypothesis
     * CA-NY: P-value = 0.49  --> Failed to reject the null hypothesis
 
-Hence, we failed to reject null hypothesis for TX-CA and CA-NY tests. However, we rejected the null hypothesis for TX-NY case. Therefore, the probability that the Ford Explorer mean price in TX is lower than the Ford Explorer mean price is not 50%.
+Hence, we failed to reject null hypothesis for TX-CA and CA-NY tests. However, we rejected the null hypothesis for TX-NY case. Therefore, the probability that the mean price of Ford Explorer in TX is lower than the mean price of Ford Explorer is not equal to 0.5.
 
 
 ### Statistical Analysis-Q2
