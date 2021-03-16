@@ -80,6 +80,10 @@ The following figure also shows the top 4 popular colors in each state. For inst
 
 ![](images/Car_color_per_state.png)
 
+Finally, we summarized the popularity of car models in each state. As can be seen, F150, Fusion, and Explorer are the most popular cars in Texas, California, and New York, respectively.
+
+![](images/Car_Distribution.jpg)
+
 
 ## Statistical Analysis
 ###  
@@ -88,7 +92,7 @@ The analysis would help in evaluating/comparing the impact of car features on ca
 
 
 
-![](images/Car_Distribution.jpg)
+
 
 
 
@@ -111,7 +115,6 @@ We used Mannwhitney U-test to determine the P-value for each scenario:
 ![](images/Price_color.png)
 
 ![](images/P_Value_Car.png)
-
 
 
 
