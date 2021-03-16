@@ -117,9 +117,9 @@ The following figure shows the histogram of listing price for Black, Gray, and W
 
 ![](images/Price_color.png)
 
-Ho: the average listing price is the same for different car colors.
+H<sub>o</sub>: the average listing price is the same for different car colors.
 
-Ha: the average listing price is not the same for different car colors.
+H<sub>a</sub>: the average listing price is not the same for different car colors.
 
 Significance level: 0.05/3 = 0.0167 (with a Bonferroni correction for three test)
 
