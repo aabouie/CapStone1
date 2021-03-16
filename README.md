@@ -87,20 +87,25 @@ Finally, we summarized the popularity of car models in each state. As can be see
 ## Statistical Analysis
 ###  
 
-The analysis would help in evaluating/comparing the impact of car features on car price. 
-
+In this part, we investigated the impact of location and color on car price using hypothesis testing and determining the p-value.  
 
 ### Statistical Analysis-Q1
 **Is the average listing price of Ford Explorer in TX, CA, and NY different**
+The null hypothesis for this test states that the average Ford Explorer price in Texas are equally likely to be higher than the NY (or CA) Ford Explorer price and the other way around. In other words,
+*P(Average car price in TX < Average car price in CA/NY)=0.5*
+
+The following figure illustrates the histogram of the Ford Explorer car price.
 
 ![](images/Ford_Explorer_state_price.png)
 
-Significance level: 0.05/3
-We used Mannwhitney U-test to determine the P-value for each scenario:
+Accounting for the Bonferroni correction, the significance level is set to (0.05/3 = 0.017).
+Since we did not make any distribution assumption for the car price and the number of each category was less than 50, We decided to use Mannwhitney U-test to determine the P-value for each scenario. The following tables shows the results of p-value calcualtion:
 
     * TX-CA: P-value = 0.47  --> Failed to reject null hypothesis
     * TX-NY: P-value = 0.015 --> Reject the null hypothesis
     * CA-NY: P-value = 0.49  --> Failed to reject the null hypothesis
+
+Hence, we failed to reject null hypothesis for TX-CA and CA-NY tests. However, we rejected the null hypothesis for TX-NY case. Therefore, the probability that the Ford Explorer mean price in TX is lower than the Ford Explorer mean price is not 50%.
 
 
 ### Statistical Analysis-Q2
@@ -115,5 +120,5 @@ We used Mannwhitney U-test to determine the P-value for each scenario:
 ## Future Work
 * Include more car data from CARmax into the database
 * Include data from other used car retailers
-* Web scraping the CARFAX dataset to include the # of accidents and services for each car
+* Web scraping the CARFAX dataset to include the number of accidents and services for each car
 * Apply machine learning algorithms to predict the price of cars on CARMAX
