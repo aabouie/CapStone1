@@ -93,6 +93,7 @@ In this part, we investigated the impact of location and color on car price usin
 **Is the average listing price of Ford Explorer in TX, CA, and NY similar**
 
 The null hypothesis for this test states that the average Ford Explorer price in Texas are equally likely to be higher than the NY (or CA) Ford Explorer price and the other way around. In other words,
+
 *P(Average car price in TX < Average car price in CA/NY)=0.5*
 
 The following figure illustrates the histogram of the Ford Explorer car price.
