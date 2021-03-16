@@ -112,6 +112,13 @@ Hence, we failed to reject null hypothesis for TX-CA and CA-NY tests. However, w
 ### Statistical Analysis-Q2
 **Is the average listing price the same for different colors? (Black/Gray/White)**
 
+H_o: Ridership is unaffected by weather conditions such as temperature, humidity, and rain
+
+Ha: Ridership will decrease based on high measurements of temperature, humidity, and rain
+
+Alpha: 0.05 (0.0167 with a Bonferroni correction for three test)
+
+
 ![](images/Price_color.png)
 
 ![](images/P_Value_Car.png)
