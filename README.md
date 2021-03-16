@@ -125,11 +125,11 @@ Significance level: 0.05/3 = 0.0167 (with a Bonferroni correction for three test
 
 A Welch's t-test was chosen for the analysis due to the large size of the population.
 
-    * Black-Gray: P-value = 0.14  --> Failed to reject null hypothesis
+    * Black-Gray: P-value = 0.14 > 0.0167 --> Failed to reject null hypothesis
     
-    * Gray-White: P-value = 0.19  --> Failed to reject the null hypothesis
+    * Gray-White: P-value = 0.19 > 0.0167 --> Failed to reject the null hypothesis
 
-    * Black-White: P-value = 0.19 --> Reject the null hypothesis
+    * Black-White: P-value = 0.005 < 0.0167 --> Reject the null hypothesis
 
 ![](images/P_Value_Car.png)
 
