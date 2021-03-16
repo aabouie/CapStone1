@@ -42,6 +42,10 @@ Features that were extracted and used in this study include:
 
 ## Data Insights
 
+![](images/Heatmap.png)
+
+
+
 
 ![](images/Mileage_per_state.png)
 
@@ -56,6 +60,9 @@ Features that were extracted and used in this study include:
     * CARFAX reports 20% average depreciation annualy
 
 
+![](images/Depreciation_Ford.jpg)
+
+
 
 ![](images/Ford_Toyota.png)
 
@@ -63,6 +70,7 @@ Features that were extracted and used in this study include:
 
 
 
+![](images/Car_color_per_state.png)
 
 
 ## Statistical Analysis
