@@ -61,20 +61,22 @@ We also looked into the car mileage across these three different states as shown
 As can be seen, the cars for sale on CARMAX have lower mileage compared to the reported mileage by US Department of Transportation. In addition, the cars in TX have higher mileage than California and New York state. This observation can be related to the size of each state and public transportation.
 
 
-* Average car value depreciation:
-    * CARmax assumes 15% depreciation annualy
-    * CARFAX reports 20% average depreciation annualy
-
-
+We also looked at depreciation of Ford cars in these three states as shown below. In general, we did not observe significant difference in depreciation among the three States.
 ![](images/Depreciation_Ford.jpg)
 
 
+Then, we compared the depreciation of Ford and Toyota cars in Texas as shown below:
 
 ![](images/Ford_Toyota.png)
 
+As can be seen, Toyota cars in general has lower depreciation rate compared to Ford cars. 
 
 
+* Average car value depreciation:
+    * CARmax assumes 15% depreciation annualy
+    * CARFAX reports 20% average depreciation annualy in United States
 
+The following figure also shows the top 4 popular colors in each state. For instance, white color is more popular than black cars in Texas. 
 
 ![](images/Car_color_per_state.png)
 
@@ -86,7 +88,6 @@ The analysis would help in evaluating/comparing the impact of car features on ca
 
 
 
-![](images/Age_depreciation.png)
 ![](images/Car_Distribution.jpg)
 
 
