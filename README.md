@@ -112,17 +112,28 @@ Hence, we failed to reject null hypothesis for TX-CA and CA-NY tests. However, w
 ### Statistical Analysis-Q2
 **Is the average listing price the same for different colors? (Black/Gray/White)**
 
-H_o: Ridership is unaffected by weather conditions such as temperature, humidity, and rain
-
-Ha: Ridership will decrease based on high measurements of temperature, humidity, and rain
-
-Alpha: 0.05 (0.0167 with a Bonferroni correction for three test)
-
+The following figure shows the histogram of listing price for Black, Gray, and White cars. Based on the data, the mean price of black, gray, and white cars are $21,550, $20,800, and $20,000, respectively.
 
 ![](images/Price_color.png)
 
+Ho: the average listing price is the same for different car colors.
+
+Ha: the average listing price is not the same for different car colors.
+
+Significance level: 0.05/3 = 0.0167 (with a Bonferroni correction for three test)
+
+A Welch's t-test was chosen for the analysis due to the large size of the population.
+
+    * Black-Gray: P-value = 0.14  --> Failed to reject null hypothesis
+    
+    * Gray-White: P-value = 0.19  --> Failed to reject the null hypothesis
+
+    * Black-White: P-value = 0.19 --> Reject the null hypothesis
+
 ![](images/P_Value_Car.png)
 
+
+Hence, it can be concluded that the mean price of black cars are not the same as the white cars
 
 
 ## Future Work
